@@ -53,7 +53,6 @@ export default function GenerateAd() {
   return (
     <div className={styles.container}>
       <h1>Generate Ad</h1>
-
       {/* Product Dropdown */}
       <div>
         <label className={styles.labelClass}>Product:</label>

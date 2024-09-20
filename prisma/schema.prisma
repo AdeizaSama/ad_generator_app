@@ -33,7 +33,7 @@ enum LayerType {
 
 model Product {
   id              Int     @id @default(autoincrement())
-  name            String  @unique
+  name            String
   promptDesc      String
   logoUrl         String
   createdAt       DateTime @default(now())

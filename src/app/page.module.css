@@ -107,3 +107,16 @@
   padding: 10px 15px;
   height: fit-content;
 }
+
+/* Textarea styling */
+.textareaClass {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background-color: #1a1a1a;
+  color: white;
+  font-size: 16px;
+  min-height: 100px; /* Set a minimum height for the textarea */
+  resize: vertical; /* Allow resizing vertically only */
+}

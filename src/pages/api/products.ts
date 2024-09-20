@@ -8,7 +8,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     try {
       if (name && typeof name === 'string') {
         // Fetch a specific product by name
-        const product = await prisma.product.findUnique({
+        const product = await prisma.product.findFirst({
           where: { name },
         });
 
