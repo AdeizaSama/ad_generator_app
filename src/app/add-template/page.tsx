@@ -31,7 +31,7 @@ export default function AddTemplate() {
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    const response = await fetch('/api/addTemplate', {
+    const response = await fetch('/api/templates', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
